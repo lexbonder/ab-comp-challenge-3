@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://use.fontawesome.com/ccd3a0600d.js"></script>
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Static Comp 3</title>
+  </head>
+  <body>
+    <section class="wrapper">
+      <aside class="sidebar">
+        <div class="profile-pic"></div>
+        <p class="user-name">Lord Cthulhu <img src="images/down-arrow.png"></p>
+        <hr>
+        <h2>Main</h2>
+        <ul>
+          <li><i class="fa fa-home" aria-hidden="true"></i>Home</li>
+          <li><i class="fa fa-briefcase" aria-hidden="true"></i>Jobs</li>
+          <li><i class="fa fa-file-text" aria-hidden="true"></i>Resumes</li>
+          <li><i class="fa fa-list-alt" aria-hidden="true"></i>Tasks</li>
+          <li><i class="fa fa-calendar" aria-hidden="true"></i>Calendar</li>
+        </ul>
+        <hr>
+        <h2>Admin</h2>
+        <ul>
+          <li><i class="fa fa-users" aria-hidden="true"></i>Users</li>
+          <li><i class="fa fa-map-marker" aria-hidden="true"></i>Locations</li>
+          <li><i class="fa fa-line-chart" aria-hidden="true"></i>Workflows</li>
+          <li id="job-boards"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Job Boards</li>
+          <li><i class="fa fa-share-alt" aria-hidden="true"></i>Social</li>
+        </ul>
+        <hr>
+        <h2>Categories</h2>
+        <ul>
+          <li><div class="checkbox" id="administrative"><img src="images/checkmark.png" alt="icon" class ="checkbox" id="check"></div>Administrative</li>
+          <li><div class="checkbox" id="design"></div>Design</li>
+          <li><div class="checkbox" id="executive"></div>Executive</li>
+          <li><div class="checkbox" id="human-resources"></div>Human Resources</li>
+        </ul>
+      </aside>
+      <section class="right-side">
+        <section>
+          <nav class="top-bar">
+            <article>
+              <i class="fa fa-bars top-icon" aria-hidden="true"></i>
+            </article>
+            <input type="text" class="normal-search" placeholder="&#xf002; Search for a job, task, or resume">
+            <input type="text" class="small-search" placeholder="&#xf002; Search">
+            <input type="text" class="icon-search" placeholder="&#xf002;">
+            <article>
+              <i class="fa fa-user-plus top-icon" aria-hidden="true"></i>
+            </article>
+            <article>
+              <i class="fa fa-calendar top-icon" aria-hidden="true"></i>
+            </article>
+            <article>
+              <i class="fa fa-th top-icon" aria-hidden="true"></i>
+            </article>
+          </nav>
+          <header>
+            <section>
+              <h1>Customer Service Representative</h1>
+              <p>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                 San Francisco, CA<br class="location-break"> - 
+                 <a href="#">Preview this post</a>
+              </p>
+            </section>
+            <nav>
+              <button class="open-button">
+                <div class="green-dot"></div> open
+              </button>
+              <button class="icon-button bookmark-button">
+                <i class="fa fa-bookmark" aria-hidden="true"></i>
+              </button>
+              <button class="icon-button edit-button">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+              </button>
+              <button class="icon-button delete-button">
+                <i class="fa fa-trash" aria-hidden="true"></i>
+              </button>
+            </nav>
+          </header>
+          <main>
+            <nav>
+              <ul>
+                <li class="summary">Summary</li>
+                <li>Applicants</li>
+                <li>Job Board</li>
+                <li>Interviews</li>
+                <li>Activity</li>
+                <li>Broadcast</li>
+                <li>Notifications</li>
+              </ul>
+            </nav>
+            <article>
+              <section class="circle-wrapper">
+                <div class="circle green-circle">
+                  <div class="container">
+                    <h3>3,154</h3>
+                    <p>Applicants</p>
+                  </div>
+                </div>
+                <div class="circle blue-circle">
+                  <div class="container">
+                    <h3>1,546</h3>
+                    <p>Interviews</p>
+                  </div>
+                </div>
+                <div class="circle pink-circle">
+                  <div class="container">
+                    <h3>912</h3>
+                    <p>Forwards</p>
+                  </div>
+                </div>
+              </section>
+              <img class="bar-graph" src="images/bar-graph.png" alt="bar graph">
+              <h4 class="circle-totals">TOTALS - Out of 5,231 views</h4>
+              <h4 class="graph-totals">Applicants/Day</h4>
+            </article>
+          </main>
+        </section>
+        <section class="midpoint">
+          <hr id="left">
+          <button>
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+          </button>
+          <hr id="right">
+        </section>
+        <section class="bottom-half">
+          <section class="table-section">
+            <table>
+              <tr class="table-header">
+                <td>
+                  <h5>Job Description<button class="edit-button-small"><i class="fa fa-pencil " aria-hidden="true"></i> Edit</button></h5>
+                </td>
+                <td class="edit-button-big">
+                  <button><i class="fa fa-pencil" aria-hidden="true"></i> Edit</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Position Title</td>
+                <td>Customer Service Representative</td>
+              </tr>
+              <tr>
+                <td>Location</td>
+                <td>San Francisco, CA</td>
+              </tr>
+              <tr>
+                <td>Employment Type</td>
+                <td>Full-time</td>
+              </tr>
+              <tr>
+                <td>Experience</td>
+                <td>Mid-level</td>
+              </tr>
+              <tr>
+                <td>Status</td>
+                <td>Open</td>
+              </tr>
+              <tr>
+                <td>Description</td>
+                <td class="long-cell">Some kind of ipsum here. blahdy blah blah blah I'll find something, this is silly. life and stuff and things happening.</td>
+              </tr>
+              <tr>
+                <td>Hiring Lead</td>
+                <td><div class="hiring-lead"></div>Tom Tizzy</td>
+              </tr>
+              <tr>
+                <td>Approved Salary</td>
+                <td><strong>$58,000</strong></td>
+              </tr>
+            </table>
+          </section>
+          <aside class="bottom-right">
+            <nav class="share-section">
+              <section class="social-section-top">
+                <button class="social-button facebook"><img src="images/facebook.png" alt="facebook Logo">Post to Facebook</button>
+                <button class="social-button twitter"><img src="images/twitter.png" alt="twitter logo">Tweet this Job</button>
+                <button class="social-button linkedin"><img src="images/linkedin.png" alt="linkedin Logo">Post to Linkedin</button>
+              </section>
+              <section class="link-section">
+                <h6><i class="fa fa-globe" aria-hidden="true"></i>Link to this job</h6>
+                <p>Some kind of ipsum here. blahdy blah blah blah I'll find something, this is silly.</p>
+                <article>
+                  <a href="#">http://www.somekindofweirdURL.com/whateveridontcare</a>
+                  <button class="copy-button">Copy</button>
+                </article>
+                <hr>
+                <h6><i class="fa fa-calculator" aria-hidden="true"></i>Use the Button Widget</h6>
+                <p>Some kind of ipsum here. blahdy blah blah blah I'll find something, this is silly.</p>
+                <article>
+                  <a href="#">http://www.somekindofweirdURL.com/whateveridontcare</a>
+                  <button class="copy-button">Copy</button>
+                </article>
+                <hr>
+                <h6><i class="fa fa-paper-plane" aria-hidden="true"></i>Upload Resumes by Email</h6>
+                <p>Some kind of ipsum here. blahdy blah blah blah I'll find something, this is silly.</p>
+                <input type="email" placeholder="example@email.com">
+              </section>
+              <section class="social-section-bottom">
+                <button class="social-button facebook"><img src="images/facebook.png" alt="facebook Logo">Post to Facebook</button>
+                <button class="social-button twitter"><img src="images/twitter.png" alt="twitter logo">Tweet this Job</button>
+                <button class="social-button linkedin"><img src="images/linkedin.png" alt="linkedin Logo">Post to Linkedin</button>
+              </section>
+              <section class="social-icons">
+                <button class="social-button facebook"><img src="images/facebook.png" alt="facebook Logo"></button>
+                <button class="social-button twitter"><img src="images/twitter.png" alt="twitter logo"></button>
+                <button class="social-button linkedin"><img src="images/linkedin.png" alt="linkedin Logo"></button>
+              </section>
+            </nav>
+          </aside>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
